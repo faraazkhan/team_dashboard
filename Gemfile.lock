@@ -84,6 +84,10 @@ GEM
     jasminerice (0.0.9)
       coffee-rails
       haml
+    jira-ruby (0.1.2)
+      activesupport
+      oauth
+      railties
     journey (1.0.4)
     jquery-rails (2.1.2)
       railties (>= 3.1.0, < 5.0)
@@ -114,6 +118,7 @@ GEM
     multipart-post (1.1.5)
     mysql2 (0.3.11)
     nokogiri (1.5.5)
+    oauth (0.4.7)
     polyglot (0.3.3)
     rack (1.4.1)
     rack-cache (1.2)
@@ -201,6 +206,7 @@ DEPENDENCIES
   handlebars_assets (~> 0.6.4)
   jasmine
   jasminerice
+  jira-ruby
   jquery-rails (~> 2.1.2)
   less-rails (~> 2.2.3)
   less-rails-bootstrap (~> 2.1.1)

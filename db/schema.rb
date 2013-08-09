@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120908174014) do
+ActiveRecord::Schema.define(:version => 20121220203854) do
 
   create_table "dashboards", :force => true do |t|
     t.string   "name"
@@ -20,6 +20,11 @@ ActiveRecord::Schema.define(:version => 20120908174014) do
     t.datetime "created_at",                    :null => false
     t.datetime "updated_at",                    :null => false
     t.boolean  "locked",     :default => false
+  end
+
+  create_table "jiras", :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "widgets", :force => true do |t|
